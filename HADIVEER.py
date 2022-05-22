@@ -39,7 +39,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
     try:
-        r = requests.get('https://github.com/Red-Mafia/fiile/blob/main/crack.txt').text
+        r = requests.get('https://pastebin.com/raw/CKSvZm6E').txt
     except requests.exceptions.ConnectionError:
         print "No Internet Connection"
         exit()
@@ -53,7 +53,7 @@ def reg():
         print '\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Copy The ID And Send To Admin'
         print '\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Your ID\x1b[1;93m : \x1b[1;92m' + to
         raw_input('\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Press enter to send id')
-        os.system('am start https://wa.me/+923188049915?text=Please%20Give%20Me%20Approve%20Sir:%20' + to)
+        os.system('am start https://wa.me/+923121294356?text=Please%20Give%20Me%20Approve%20Sir:%20' + to)
         reg()
 
 
