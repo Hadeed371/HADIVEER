@@ -39,7 +39,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
     try:
-        r = requests.get('https://pastebin.com/raw/CKSvZm6E')'txt'
+ 
     except requests.exceptions.ConnectionError:
         print "No Internet Connection"
         exit()
